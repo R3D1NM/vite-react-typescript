@@ -1,18 +1,10 @@
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import { CartList } from "./publish/CartList"; // Cart 컴포넌트 임포트
+import { CartList } from "./publish/CartList";
+import { CartMain } from "./publish/CartMain";
+import { CartInfo } from "./publish/CartInfo";
+import { CartListDetail } from "./publish/CartListDetail";
 
-import "./App.css";
-
-// function Publish() {
-//   return (
-//     <div>
-//       <h1>sdfsdfsdfsdfsdf</h1>
-//       {/* Publish 페이지에 대한 추가 내용 */}
-//     </div>
-//   );
-// }
-
-function App() {
+function Publish() {
   return (
     <Router>
       <div className="flex justify-between w-full h-full">
@@ -21,11 +13,27 @@ function App() {
             <li>
               <Link to="/publish/CartList">CartList</Link>
             </li>
+            <li>
+              <Link to="/publish/CartMain">CartMain</Link>
+            </li>
+            <li>
+              <Link to="/publish/CartInfo">CartInfo</Link>
+            </li>
+            <li>
+              <Link to="/publish/CartListDetail">CartListDetail</Link>
+            </li>
           </ul>
         </nav>
+
         <div className="flex-1">
           <Switch>
-            <Route path="/publish/CartList" component={CartList} />{" "}
+            <Route path="/publish/CartList" component={CartList}></Route>
+            <Route path="/publish/CartMain" component={CartMain}></Route>
+            <Route path="/publish/CartInfo" component={CartInfo}></Route>
+            <Route
+              path="/publish/CartListDetail"
+              component={CartListDetail}
+            ></Route>
           </Switch>
         </div>
       </div>
@@ -33,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default Publish;
