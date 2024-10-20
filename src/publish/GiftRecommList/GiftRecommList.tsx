@@ -1,5 +1,4 @@
 import { Header } from "../Common/Header";
-import likeit from "./../../assets/images/icon_likeit.svg";
 import dummyImage2 from "./../../assets/images/dummy_2.png";
 import dummyImage7 from "./../../assets/images/dummy_7.png";
 

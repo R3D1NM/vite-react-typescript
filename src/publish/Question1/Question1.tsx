@@ -1,5 +1,4 @@
 import { Header } from "../Common/Header";
-import dummyImage10 from "./../../assets/images/dummy_10.png";
 
 export const Question1 = () => {
   return (
