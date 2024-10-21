@@ -9,7 +9,10 @@ export const Question1 = () => {
           <span>서연</span>님을 위한 <br />
           선물바구니가 도착했어요!
         </div>
-        <div className="visual_banner"></div>
+        <div className="visual_banner">
+          <div className="ballon"></div>
+          <div className="cart"></div>
+        </div>
       </div>
       <div className="bottom_btn">
         <p className="text">내 취향을 저격한선물은?</p>
