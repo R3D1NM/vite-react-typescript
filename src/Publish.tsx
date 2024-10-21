@@ -12,6 +12,7 @@ import { FriendInfo } from "./publish/FriendInfo";
 import { Question1 } from "./publish/Question1/Question1";
 import { Question2 } from "./publish/Question2/Question2";
 import { Question3 } from "./publish/Question3/Question3";
+import { Collection } from "./publish/Collection/Collection";
 
 function Publish() {
   return (
@@ -58,6 +59,9 @@ function Publish() {
             <li>
               <Link to="/publish/Question3">Question3</Link>
             </li>
+            <li>
+              <Link to="/publish/Collection">Collection</Link>
+            </li>
           </ul>
         </nav>
 
@@ -86,6 +90,7 @@ function Publish() {
             <Route path="/publish/Question1" component={Question1}></Route>
             <Route path="/publish/Question2" component={Question2}></Route>
             <Route path="/publish/Question3" component={Question3}></Route>
+            <Route path="/publish/Collection" component={Collection}></Route>
           </Switch>
         </div>
       </div>
