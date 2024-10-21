@@ -163,7 +163,7 @@ header {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #ff4bc1;
+      background-color: #ff2d55;
       border-radius: 0.875rem;
     }
 
@@ -1577,7 +1577,7 @@ header {
   }
   .visual_banner {
     width: 20.5rem;
-    height: 400px;
+    /* height: 400px; */
     display: block;
     margin: 95px auto 1.3125rem;
 
