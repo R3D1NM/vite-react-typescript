@@ -1776,6 +1776,7 @@ header {
             justify-content: center;
             align-items: center;
             width: 100%;
+            opacity: 0.6;
 
             i {
               width: 1.5rem;
